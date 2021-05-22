@@ -1,0 +1,23 @@
+.home{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+.home__image{
+    width:100%;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    z-index: 0;
+    margin-bottom: -250px;
+}
+.home__row{
+    width: 90%;
+}
+
+h2{
+    font-size: 42px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    opacity: 1;
+    z-index: 1;
+}
